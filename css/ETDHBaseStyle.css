@@ -1,0 +1,168 @@
+/*#inclusive_contents_home_slider {
+		height: 250px;
+    overflow: hidden;
+}
+
+ #inclusive_contents_home_slider .views-slideshow-controls-top {
+    position: relative;
+		top: 100px;
+		width: 100%;
+    z-index: 10;
+		padding: 0 3%;
+}
+
+#inclusive_contents_home_slider  #views_slideshow_cycle_main_contenidos_inclusivos-panel_pane_4 {
+		position: relative;
+    top: -20px;
+}
+
+#inclusive_contents_home_slider .views-slideshow-controls-text-pause {
+		display: none;
+}
+
+#inclusive_contents_home_slider .views_slideshow_controls_text_next {
+		float: right;
+}
+
+#inclusive_contents_home_slider .views-slideshow-controls-text-previous a {
+		color: transparent;
+		padding-bottom: 35px;
+		background: url("https://dl.dropboxusercontent.com/u/575652037/contenidos-inclusivos/images/previous_slide_icon.png") no-repeat center center / contain;
+}
+
+#inclusive_contents_home_slider .views-slideshow-controls-text-next a {
+		color: transparent;
+		padding-bottom: 35px;
+		background: url("https://dl.dropboxusercontent.com/u/575652037/contenidos-inclusivos/images/next_slide_icon.png") no-repeat center center / contain;
+}*/
+
+.etdh-panel #microsite {
+		padding: 0;
+}
+
+.etdh-panel #microsite_panel .pane-menu,
+.etdh-panel #microsite_panel .pane-menu > div .menu{
+    background-color: #4bb5c2 !important;
+		color: white;
+}
+
+.etdh-panel .main-menu li a {
+    padding-bottom: 11px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #ffffff !important;
+    border: none !important;
+    text-transform: uppercase;
+}
+
+.etdh-panel .main-menu ul {
+    border-bottom: 3px solid #4bb5c2 !important;
+}
+
+.etdh-panel .pane-content > .menu li.parent_menu > .children_menu li a {
+    background-color: #46adb2 !important;
+}
+
+.etdh-panel .main-menu .menu .children_menu li {
+		border-bottom: 1px solid white;
+}
+
+.etdh-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu {
+    height: 368px !important;
+}
+
+.etdh-panel .slide .pane-content > .menu li.parent_menu:nth-child(2):hover > .children_menu {
+    height: 246px !important;
+}
+
+.etdh-panel .main_container {
+		background: url('https://dl.dropboxusercontent.com/u/575652037/edu-etdh/images/background.png') white center center / cover;
+}
+
+.etdh-panel .active-trail.active.active-link,
+.etdh-panel .parent.active.active-link,
+.etdh-panel .parent.active-link {
+		color: #30426A !important;
+		text-decoration: underline;
+		font-weight: 700 !important;
+}
+
+.etdh-panel #microsite_panel .panel-default {
+		border: none;
+}
+
+.etdh-panel .home-container,
+.etdh-panel .etdh-container {
+		padding:20px;
+		background-color: white;
+}
+
+.etdh-panel .panels-flexible-region {
+		background-color: white;
+}
+
+.etdh-panel #microsite_panel h3 {
+		color: #96CA2D;
+		font-size: 19px;
+		margin: 5px 0;
+}
+
+.etdh-panel #microsite_panel .row {
+		background-color: #EDF8F2;
+		margin: 15px 0;
+		padding: 15px 0;
+}
+
+/*.etdh-panel .inclusive-contents-btn {
+		background-color: #B5E656;
+    color: #30426A;
+    font-weight: 600;
+    border: none;
+    border-radius: 0px;
+    padding: 8px 15px;
+    font-size: 18px;
+    border-bottom: 5px solid #97CA2D;
+    border-right: 5px solid #97CA2D;
+}*/
+
+.etdh-panel .back-link,
+.etdh-panel .back-link span {
+		color: #4cb4bf;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 767px) {
+		.etdh-panel .section_container.no_left_sidebar .section_content {
+		    width: 100% !important;
+		}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+		#etdh_banner .view .view-content {
+		    margin-bottom: 0;
+		}
+}
+
+@media only screen and (min-width: 1024px) {
+		/*#inclusive_contents_home_slider .views-slideshow-cycle-main-frame-row.views_slideshow_cycle_slide .field-content {
+				top: -150px;
+				position: relative;
+		}*/
+
+		.etdh-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu,
+		.etdh-panel .slide .pane-content > .menu li.parent_menu > .children_menu {
+		    width: 45%;
+		}
+}
+
+.etdh-panel .labelMod
+{
+	padding: 4px;
+	font-size: 0.8em;
+}
+
+.etdh-panel #microsite_panel h4 {
+		color: #96CA2D;
+		font-size: 17px;
+		margin: 5px 0;
+}
