@@ -58,6 +58,10 @@
 		padding: 0;
 }
 
+.etdh-panel .panels-flexible-region  {
+		width: 100%;
+}
+
 .etdh-panel #microsite_panel .pane-menu,
 .etdh-panel #microsite_panel .pane-menu > div .menu {
     background-color: #ffffff !important;
@@ -120,7 +124,7 @@
 		float: left;
 }
 
-.etdh-panel .quick-access-links a,
+.etdh-panel .quick-access-links > div > *,
 .etdh-panel .carousel-links .field-content a {
 		width: 100%;
 		background: #0080a2;
@@ -128,10 +132,66 @@
 		display: block;
 		padding: 18px 10px;
     margin-bottom: 5px;
+		text-align: left;
+}
+
+.etdh-panel .edth-events-docs-video .views-row {
+    width: 50%;
+    float: left;
+}
+
+.etdh-panel .docs-view {
+		height: 150px;
+		overflow: auto;
+}
+
+.etdh-panel .interest-links .blue-row,
+.etdh-panel .interest-links .dark-row {
+		padding: 0;
+		display: table;
+}
+
+.etdh-panel .interest-links .blue-row a,
+.etdh-panel .interest-links .dark-row a {
+		width: 50%;
+		color: white;
+		padding: 18px 10px;
+		margin-bottom: 5px;
+		display: table-cell;
+		float: none;
+		vertical-align: middle;
+		border: 1px solid white;
+}
+
+.etdh-panel .interest-links .blue-row a {
+		background: #00a2ce;
+}
+
+.etdh-panel .interest-links .dark-row a {
+		background: #0080a2;
 }
 
 .etdh-panel .panels-flexible-region {
 		background-color: white;
+}
+
+.etdh-panel .accordion-content p {
+    white-space: pre-line;
+}
+
+.etdh-panel .accordion-content ul li,
+.etdh-panel .accordion-content ol li {
+		list-style-type: disc;
+    display: list-item;
+		margin-left: 20px
+}
+
+.etdh-panel .accordion-content ul li {
+		list-style-type: disc;
+}
+
+.etdh-panel .accordion-content ol li {
+		list-style-type: decimal;
 }
 
 .etdh-panel #microsite_panel h3 {
@@ -146,7 +206,7 @@
 		padding: 15px 0;
 }
 
-/*.etdh-panel .inclusive-contents-btn {
+.etdh-panel .etdh-btn {
 		background-color: #B5E656;
     color: #30426A;
     font-weight: 600;
@@ -154,14 +214,6 @@
     border-radius: 0px;
     padding: 8px 15px;
     font-size: 18px;
-    border-bottom: 5px solid #97CA2D;
-    border-right: 5px solid #97CA2D;
-}*/
-
-.etdh-panel .back-link,
-.etdh-panel .back-link span {
-		color: #4cb4bf;
-    font-weight: 700;
 }
 
 @media (max-width: 767px) {
