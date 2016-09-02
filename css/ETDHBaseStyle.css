@@ -194,6 +194,27 @@
 		list-style-type: decimal;
 }
 
+.etdh-panel .enrollment-image,
+.etdh-panel .certificate-image {
+		height: 200px;
+		width: 100%;
+}
+
+.etdh-panel .enrollment-image {
+		background: url('https://dl.dropboxusercontent.com/u/575652037/edu-etdh/images/enrollment_bulletin_etdh.png') no-repeat center center / contain;
+}
+
+.etdh-panel .certificate-image {
+		background: url('https://dl.dropboxusercontent.com/u/575652037/edu-etdh/images/certificate_bulletin_etdh.png') no-repeat center center / contain;
+}
+
+.etdh-panel .bulletin_search_icon {
+		display: block;
+		height: 100%;
+		margin: 0 -15px;
+		background: url('https://dl.dropboxusercontent.com/u/575652037/edu-etdh/images/bulletin_search_icon.png') no-repeat 100% 50% / auto;
+}
+
 .etdh-panel #microsite_panel h3 {
 		color: #96CA2D;
 		font-size: 19px;
