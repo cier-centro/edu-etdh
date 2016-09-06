@@ -135,14 +135,22 @@
 		text-align: left;
 }
 
-.etdh-panel .edth-events-docs-video .views-row {
+.etdh-panel .etdh-events-docs-video .views-row {
     width: 50%;
     float: left;
 }
 
-.etdh-panel .docs-view {
+.etdh-panel .etdh-events-docs-video .documents-etdh ul {
 		height: 150px;
 		overflow: auto;
+}
+
+.etdh-panel .documents-etdh > a {
+		display: none;
+}
+
+.etdh-panel .etdh-events-docs-video .documents-etdh > a {
+		display: block;
 }
 
 .etdh-panel .interest-links .blue-row,
@@ -175,7 +183,8 @@
 		background-color: white;
 }
 
-.etdh-panel .accordion-content p {
+.etdh-panel .accordion-content p,
+.etdh-panel .ui-accordion-content p {
     white-space: pre-line;
 }
 
