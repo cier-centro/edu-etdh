@@ -29,13 +29,13 @@
 #etdh_home_slider .views-slideshow-controls-text-previous a {
 		color: transparent;
 		padding-bottom: 35px;
-		background: url("https://dl.dropboxusercontent.com/u/575652037/edu-etdh/images/previous_slide_icon.png") no-repeat center center / contain;
+		background: url("../images/previous_slide_icon.png") no-repeat center center / contain;
 }
 
 #etdh_home_slider .views-slideshow-controls-text-next a {
 		color: transparent;
 		padding-bottom: 35px;
-		background: url("https://dl.dropboxusercontent.com/u/575652037/edu-etdh/images/next_slide_icon.png") no-repeat center center / contain;
+		background: url("../images/next_slide_icon.png") no-repeat center center / contain;
 }
 
 #etdh_home_slider #views_slideshow_cycle_teaser_section_edth_vista-panel_pane_4,
@@ -103,6 +103,10 @@
 		padding: 17px 0 !important;
 }
 
+.etdh-panel .main-menu li .active {
+		color: #ff9500 !important;
+}
+
 .etdh-panel .main-menu ul {
     border-bottom: none !important;
 }
@@ -124,7 +128,7 @@
 }
 
 .etdh-panel .main_container {
-		background: url('https://dl.dropboxusercontent.com/u/575652037/edu-etdh/images/background.png') white center center / cover;
+		background: url('../images/background.png') white center center / cover;
 }
 
 .etdh-panel .active-trail.active.active-link,
@@ -146,8 +150,69 @@
 }
 
 .etdh-panel .etdh-carousel .views-row {
-		width: 24%;
+		width: 24.2%;
 		float: left;
+		text-align: center;
+		margin-right: 1%;
+}
+
+.etdh-panel .etdh-carousel .view-content .views-row:last-child {
+		margin-right: 0;
+}
+
+.etdh-panel .etdh-carousel .views-row > div {
+		padding: 7px;
+}
+
+.etdh-panel .etdh-carousel .views-row a, .etdh-panel .etdh-carousel .views-row b {
+		color: white;
+}
+
+.etdh-panel .etdh-carousel .views-row b {
+		display: block;
+		margin-bottom: 10px;
+}
+
+.etdh-panel .etdh-carousel .views-field-title {
+		font-weight: bold;
+		font-size: 15px;
+}
+
+.etdh-panel .etdh-carousel .views-row > div:nth-child(3) {
+		font-size: 12px;
+		height: 195px;
+}
+
+.etdh-panel .etdh-carousel .views-row:nth-child(1) {
+		background: #00bbb1;
+}
+
+.etdh-panel .etdh-carousel .views-row:nth-child(1) > div:nth-child(3) {
+		background: #009696;
+}
+
+.etdh-panel .etdh-carousel .views-row:nth-child(2) {
+		background: #005573;
+}
+
+.etdh-panel .etdh-carousel .views-row:nth-child(2) > div:nth-child(3) {
+		background: #00455c;
+}
+
+.etdh-panel .etdh-carousel .views-row:nth-child(3) {
+		background: #00a6d1;
+}
+
+.etdh-panel .etdh-carousel .views-row:nth-child(3) > div:nth-child(3) {
+		background: #0097be;
+}
+
+.etdh-panel .etdh-carousel .views-row:nth-child(4) {
+		background: #ff9517;
+}
+
+.etdh-panel .etdh-carousel .views-row:nth-child(4) > div:nth-child(3) {
+		background: #ef852d;
 }
 
 .etdh-panel .quick-access-links > div > *,
@@ -159,6 +224,10 @@
 		padding: 18px 10px;
     margin-bottom: 5px;
 		text-align: left;
+}
+
+.etdh-panel .etdh-events-docs-video {
+		padding: 15px;
 }
 
 .etdh-panel .etdh-events-docs-video .views-row {
@@ -236,18 +305,18 @@
 }
 
 .etdh-panel .enrollment-image {
-		background: url('https://dl.dropboxusercontent.com/u/575652037/edu-etdh/images/enrollment_bulletin_etdh.png') no-repeat center center / contain;
+		background: url('../images/enrollment_bulletin_etdh.png') no-repeat center center / contain;
 }
 
 .etdh-panel .certificate-image {
-		background: url('https://dl.dropboxusercontent.com/u/575652037/edu-etdh/images/certificate_bulletin_etdh.png') no-repeat center center / contain;
+		background: url('../images/certificate_bulletin_etdh.png') no-repeat center center / contain;
 }
 
 .etdh-panel .bulletin_search_icon {
 		display: block;
 		height: 100%;
 		margin: 0 -15px;
-		background: url('https://dl.dropboxusercontent.com/u/575652037/edu-etdh/images/bulletin_search_icon.png') no-repeat 100% 50% / auto;
+		background: url('../images/bulletin_search_icon.png') no-repeat 100% 50% / auto;
 }
 
 .etdh-panel #microsite_panel h3 {
@@ -272,81 +341,86 @@
     font-size: 18px;
 }
 
-@media (max-width: 710px) {
-		#etdh_home_slider .views_slideshow_slide > div .views-field-body {
-			right: 18%;
-		}
-
-		#etdh_home_slider .views_slideshow_slide .field-content p {
-			font-size: 0px;
-		}
-
-		#etdh_home_slider .views_slideshow_slide label {
-			font-size: 15px;
-		}
-
-		#etdh_home_slider .views-more-link {
-			font-size: 12px;
-		}
-}
-
-@media (min-width: 711px) and (max-width: 850px) {
-		#etdh_home_slider .views_slideshow_slide > div .views-field-body {
-			top: 15%;
-			width: 35%;
-			right: 14%;
-		}
-}
-
-@media (max-width: 767px) {
-		.etdh-panel .section_container.no_left_sidebar .section_content {
-		    width: 100% !important;
-		}
-
-		#etdh_home_slider .views-slideshow-controls-top {
-				width: 94%;
-		}
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-		#etdh_banner .view .view-content {
-		    margin-bottom: 0;
-		}
-}
-
-@media (min-width: 851px) {
-			.etdh-panel #microsite_panel .pane-menu > div .menu {
-					display: table;
-					width: 100%;
-			}
-
-			.etdh-panel #microsite_panel .pane-menu > div .menu > li {
-					float: none;
-			    display: table-cell;
-			}
-}
-
-@media (max-width: 991px) {
-		#etdh_home_slider {
-				height: 33vw;
-		}
-}
-
-@media only screen and (min-width: 1024px) {
-		.etdh-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu,
-		.etdh-panel .slide .pane-content > .menu li.parent_menu > .children_menu {
-		    width: 45%;
-		}
-}
-
-.etdh-panel .labelMod
-{
-	padding: 4px;
-	font-size: 0.8em;
+.etdh-panel .labelMod {
+		padding: 4px;
+		font-size: 0.8em;
 }
 
 .etdh-panel #microsite_panel h4 {
 		color: #96CA2D;
 		font-size: 17px;
 		margin: 5px 0;
+}
+
+@media (max-width: 710px) {
+    #etdh_home_slider .views_slideshow_slide > div .views-field-body {
+        right: 18%;
+    }
+
+    #etdh_home_slider .views_slideshow_slide .field-content p {
+        font-size: 0px;
+    }
+
+    #etdh_home_slider .views_slideshow_slide label {
+        font-size: 15px;
+    }
+
+    #etdh_home_slider .views-more-link {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 711px) and (max-width: 850px) {
+    #etdh_home_slider .views_slideshow_slide > div .views-field-body {
+        top: 15%;
+        width: 35%;
+        right: 14%;
+    }
+}
+
+@media (max-width: 767px) {
+    .etdh-panel .section_container.no_left_sidebar .section_content {
+        width: 100% !important;
+    }
+
+    #etdh_home_slider .views-slideshow-controls-top {
+        width: 94%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #etdh_banner .view .view-content {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .etdh-panel .etdh-carousel .views-row > div:nth-child(3) {
+        height: 175px;
+    }
+}
+
+@media (min-width: 851px) {
+    .etdh-panel #microsite_panel .pane-menu > div .menu {
+        display: table;
+        width: 100%;
+    }
+
+    .etdh-panel #microsite_panel .pane-menu > div .menu > li {
+        float: none;
+        display: table-cell;
+    }
+}
+
+@media (max-width: 991px) {
+    #etdh_home_slider {
+        height: 33vw;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .etdh-panel .slide .pane-content > .menu li.parent_menu:hover > .children_menu,
+    .etdh-panel .slide .pane-content > .menu li.parent_menu > .children_menu {
+        width: 45%;
+    }
 }
