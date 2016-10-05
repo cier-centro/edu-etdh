@@ -145,7 +145,7 @@
 
 .etdh-panel .home-container,
 .etdh-panel .etdh-container {
-		padding:20px;
+		padding: 0 20px 20px;
 		background-color: white;
 }
 
@@ -278,24 +278,87 @@
 		background-color: white;
 }
 
+.etdh-panel .accordion-content {
+		margin: 15px 0;
+		padding: 0 15px;
+}
+
+.etdh-panel .educational-institutions-etdh > p {
+		padding: 0 15px;
+}
+
+.etdh-panel .accordion-content p,
+.etdh-panel .educational-institutions-etdh > p {
+		margin: 0 0 15px !important;
+}
+
+.etdh-panel p,
+.etdh-panel li {
+		text-align: justify;
+}
+
 .etdh-panel .accordion-content p,
 .etdh-panel .ui-accordion-content p {
     white-space: pre-line;
 }
 
-.etdh-panel .accordion-content ul li,
-.etdh-panel .accordion-content ol li {
-		list-style-type: disc;
-    display: list-item;
-		margin-left: 20px
+.etdh-panel .accordion-content p > a {
+		color: #ff9000;
+		font-weight: 500;
 }
 
-.etdh-panel .accordion-content ul li {
-		list-style-type: disc;
+.etdh-panel .accordion-content ul,
+.etdh-panel .accordion-content ol {
+		list-style: none;
+}
+
+.etdh-panel .accordion-content ul {
+		margin: 0 0 15px 4%;
+}
+
+.etdh-panel .accordion-content ol {
+		counter-reset: li;
+		margin: 0 0 15px 3%;
+}
+
+.etdh-panel .accordion-content ul li::before,
+.etdh-panel .accordion-content ol li::before {
+		color: #ff9000;
+		display: inline-block;
+		width: 2em;
+    margin-left: -2em;
+		text-align: center;
+    font-weight: 500;
+}
+
+.etdh-panel .accordion-content ul li::before {
+		content: "•";
+}
+
+.etdh-panel .accordion-content ol li::before {
+		content: counter(li)".";
 }
 
 .etdh-panel .accordion-content ol li {
-		list-style-type: decimal;
+		counter-increment: li
+}
+
+.etdh-panel .information-systems-etdh > * {
+    float: left;
+    width: 100%;
+}
+
+.etdh-panel .normativity-etdh .accordion-content ul li::before {
+		width: 1.7em;
+}
+
+.etdh-panel .normativity-etdh a {
+		color: black;
+}
+
+.etdh-panel .normativity-etdh a:hover {
+		color: #ff9000;
+		font-weight: 600;
 }
 
 .etdh-panel .enrollment-image,
@@ -319,9 +382,36 @@
 		background: url('../images/bulletin_search_icon.png') no-repeat 100% 50% / auto;
 }
 
+.etdh-panel #microsite_panel .etdh-container h1 {
+		margin: 0 0 20px;
+		background: #ff9000;
+		color: white;
+		padding: 10px;
+		font-size: 20px;
+}
+
+.etdh-panel #microsite_panel h2 {
+		background: url(../images/plus_accordion_icon.png) #b8b9bd no-repeat 98% center / 20px 20px;
+		color: white;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: normal;
+		margin: 1px 0;
+}
+
+.etdh-panel #microsite_panel .active h2{
+		background: url(../images/minus_accordion_icon.png) #005573 no-repeat 98% center / 20px 20px;
+}
+
 .etdh-panel #microsite_panel h3 {
-		color: #96CA2D;
+		color: #ff9000;
 		font-size: 19px;
+		margin: 0 0 10px;
+}
+
+.etdh-panel #microsite_panel h4 {
+		color: #96CA2D;
+		font-size: 17px;
 		margin: 5px 0;
 }
 
@@ -332,24 +422,18 @@
 }
 
 .etdh-panel .etdh-btn {
-		background-color: #B5E656;
-    color: #30426A;
+		background-color: #0080a2;
+    color: white;
     font-weight: 600;
     border: none;
     border-radius: 0px;
     padding: 8px 15px;
     font-size: 18px;
+		margin: 15px 0 0 15px;
 }
 
-.etdh-panel .labelMod {
-		padding: 4px;
-		font-size: 0.8em;
-}
-
-.etdh-panel #microsite_panel h4 {
-		color: #96CA2D;
-		font-size: 17px;
-		margin: 5px 0;
+.etdh-panel .etdh-btn:hover {
+		background: #2e6da4;
 }
 
 @media (max-width: 710px) {
