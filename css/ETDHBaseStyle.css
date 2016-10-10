@@ -258,14 +258,80 @@
 		padding: 15px;
 }
 
-.etdh-panel .etdh-events-docs-video .views-row {
-    width: 50%;
-    float: left;
+.etdh-panel .etdh-events-docs-video .views-row:first-child {
+    width: 47.6%;
+}
+
+.etdh-panel .etdh-events-docs-video .views-row:nth-child(2) {
+    width: 49.4%;
+		background: black;
+}
+
+.etdh-panel .documents-etdh > a,
+.etdh-panel .events-etdh h1 {
+		background: url(../images/events_icon.png) #00a4d1 no-repeat 97.5% center / 20px 20px !important;
+		text-align: left;
+		font-weight: 500;
+}
+
+.etdh-panel .etdh-events-docs-video .documents-etdh > a {
+		margin-bottom: 10px;
+}
+
+.etdh-panel .documents-etdh h1 {
+		background: #005573 !important;
+		margin-bottom: 0!important;
+}
+
+.etdh-panel .documents-etdh > div {
+		background: #e0e0e0;
+		margin: 0;
+		padding: 5px 0 5px;
+}
+
+.etdh-panel .documents-etdh .accordion-content ul li::before {
+		display: none;
+}
+
+.etdh-panel .documents-etdh ul {
+		padding: 15px;
+		margin: 0 !important;
 }
 
 .etdh-panel .etdh-events-docs-video .documents-etdh ul {
 		height: 150px;
 		overflow: auto;
+}
+
+.etdh-panel .documents-etdh li {
+		background: url(../images/document_icon.png) #c1c1c1 no-repeat 10px center / 36px 50px !important;
+		margin-bottom: 10px;
+		min-height: 60px;
+}
+
+.etdh-panel .etdh-container .documents-etdh li a {
+		min-height: 60px;
+}
+
+.etdh-panel .documents-etdh li a {
+		color: #5b5b5f;
+		font-weight: 700;
+    font-size: 12px;
+    display: block;
+		text-align: left;
+    padding: 10px 15px 10px 55px;
+}
+
+.etdh-panel .etdh-events-docs-video .documents-etdh li a {
+		display: block;
+		display: -webkit-box;
+		height: 50px;
+		margin: 0 auto;
+		line-height: 1.5;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
 }
 
 .etdh-panel .documents-etdh > a {
@@ -306,7 +372,9 @@
 		background-color: white;
 }
 
-.etdh-panel #microsite_panel .etdh-container h1 {
+.etdh-panel #microsite_panel .etdh-container h1,
+.etdh-panel .documents-etdh > a,
+.etdh-panel .documents-etdh  h1 {
 		margin: 0 0 20px;
 		background: #ff9000;
 		color: white;
@@ -588,10 +656,6 @@
 		background: url('../images/bulletin_search_icon.png') no-repeat 100% 50% / auto;
 }
 
-.carousel-links .field-content > a {
-
-}
-
 @media (max-width: 710px) {
     #etdh_home_slider .views_slideshow_slide > div .views-field-body {
         right: 18%;
@@ -626,6 +690,35 @@
     #etdh_home_slider .views-slideshow-controls-top {
         width: 94%;
     }
+
+		.etdh-panel .etdh-events-docs-video .views-row {
+				width: 100% !important;
+		}
+
+		.etdh-panel .documents-etdh > div {
+				margin-bottom: 15px;
+		}
+}
+
+
+@media (min-width: 768px) {
+		.etdh-panel .etdh-events-docs-video .view-content {
+				display: table;
+				table-layout: fixed;
+				height: 100%;
+				width: 100%;
+		}
+
+		.etdh-panel .etdh-events-docs-video .view-content > div {
+				display: table-cell;
+				float: none !important;
+				height: 100%;
+				vertical-align: middle;
+		}
+
+		.etdh-panel .etdh-events-docs-video .views-row:nth-child(2) {
+				border-left: 8px solid white;
+		}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
