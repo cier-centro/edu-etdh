@@ -274,8 +274,13 @@
 		font-weight: 500;
 }
 
+.etdh-panel .documents-etdh > a:hover {
+		background: url(../images/events_icon.png) #1d3b55 no-repeat 97.5% center / 20px 20px !important;
+}
+
 .etdh-panel .etdh-events-docs-video .documents-etdh > a {
 		margin-bottom: 10px;
+		text-decoration: blink;
 }
 
 .etdh-panel .documents-etdh h1 {
@@ -342,29 +347,43 @@
 		display: block;
 }
 
-.etdh-panel .interest-links .blue-row,
-.etdh-panel .interest-links .dark-row {
-		padding: 0;
-		display: table;
+.etdh-panel .interest-links .links-group {
+		margin-bottom: 20px;
 }
 
-.etdh-panel .interest-links .blue-row a,
-.etdh-panel .interest-links .dark-row a {
-		width: 50%;
+.etdh-panel .interest-links .links-pair {
+		display: flex;
+}
+
+.etdh-panel .interest-links .blue-link,
+.etdh-panel .interest-links .dark-link {
 		color: white;
-		padding: 18px 10px;
-		margin-bottom: 5px;
-		display: table-cell;
-		float: none;
-		vertical-align: middle;
 		border: 1px solid white;
+		padding: 10px 35px 10px 10px;
+		white-space: normal;
+		font-size: 13px;
+		font-weight: 500;
+		width: 50%;
+		display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.etdh-panel .interest-links .blue-row a {
-		background: #00a2ce;
+.etdh-panel .interest-links .blue-link:hover,
+.etdh-panel .interest-links .dark-link:hover {
+		background: url(../images/plus_link_icon.png) #1d3b55 no-repeat 95% center / 20px 20px !important;
+		text-decoration: blink;
 }
 
-.etdh-panel .interest-links .dark-row a {
+.etdh-panel .interest-links .blue-link {
+		background: url(../images/plus_link_icon.png) #00a2ce no-repeat 95% center / 20px 20px !important;
+}
+
+.etdh-panel .interest-links .dark-link {
+		background: url(../images/plus_link_icon.png) #0080a2 no-repeat 95% center / 20px 20px !important;
+}
+
+.etdh-panel .interest-links .dark-row {
 		background: #0080a2;
 }
 
@@ -719,6 +738,14 @@
 		.etdh-panel .etdh-events-docs-video .views-row:nth-child(2) {
 				border-left: 8px solid white;
 		}
+
+		.etdh-panel .interest-links .four-links-group {
+				display: flex;
+		}
+
+		.etdh-panel .interest-links .field-content .links-pair {
+				width: 50%;
+		}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -757,8 +784,8 @@
     }
 
 		.etdh-panel .quick-access-links > div > * {
-				padding-top: 22px !important;
-				padding-bottom: 22px !important;
+				padding-top: 23px !important;
+				padding-bottom: 23px !important;
 		}
 }
 
