@@ -106,6 +106,24 @@
 .etdh-panel .main-menu li .active,
 .etdh-panel .main-menu li a:hover {
 		color: #ff9500 !important;
+		text-decoration: blink;
+}
+
+.etdh-panel .main-menu li:after {
+		display: block;
+		position: relative;
+		margin: 0 100%;
+		height: 5px;
+		background-color: #ff9500;
+		content: "";
+		-webkit-transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		transition: all 0.2s;
+}
+
+.etdh-panel .main-menu li:hover:after {
+  	margin: 0;
 }
 
 .etdh-panel .main-menu ul {
@@ -228,6 +246,21 @@
 .etdh-panel .quick-access-links > div > a:nth-child(2),
 .etdh-panel .quick-access-links > div > div {
     border-left: 10px solid #1d3b55;
+}
+
+.etdh-panel .quick-access-links > div > *,
+.etdh-panel .carousel-links .field-content a {
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    text-shadow: none;
+    -webkit-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.etdh-panel .quick-access-links > div > a:hover,
+.etdh-panel .carousel-links .field-content a:hover {
+		box-shadow: inset 0 0 20px rgba(255,255,255,0.6), 0 0 110px rgba(255, 255, 255, 0);
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+		text-decoration: blink;
 }
 
 .etdh-panel .quick-access-links > div > a:first-child,
@@ -526,7 +559,7 @@
 }
 
 .etdh-panel .etdh-btn:hover {
-		background: #2e6da4;
+		background: #1d3b55;
 }
 
 .etdh-panel .accordion-content {
