@@ -708,6 +708,39 @@
 		background: url('../images/bulletin_search_icon.png') no-repeat 100% 50% / auto;
 }
 
+.etdh-panel .inner-image {
+		margin: 0 0 20px;
+		position: relative;
+		display: block;
+		height: 0;
+		padding: 0 0 35%;
+		overflow: hidden;
+}
+
+.etdh-panel .start-image {
+		background: url(../images/inner_images/inner_image_1.png) no-repeat center center / cover;
+}
+
+.etdh-panel .definition-image {
+		background: url(../images/inner_images/inner_image_2.png) no-repeat center 35% / cover;
+}
+
+.etdh-panel .education-departments-image {
+		background: url(../images/inner_images/inner_image_3.png) no-repeat center center / cover;
+}
+
+.etdh-panel .educational-institutions-image {
+		background: url(../images/inner_images/inner_image_4.png) no-repeat center 35% / cover;
+}
+
+.etdh-panel .information-systems-image {
+		background: url(../images/inner_images/inner_image_5.png) no-repeat center 35% / cover;
+}
+
+.etdh-panel .normativity-image {
+		background: url(../images/inner_images/inner_image_6.png) no-repeat center center / cover;
+}
+
 @media (max-width: 710px) {
     #etdh_home_slider .views_slideshow_slide > div .views-field-body {
         right: 18%;
