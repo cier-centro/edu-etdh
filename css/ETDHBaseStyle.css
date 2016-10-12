@@ -230,6 +230,10 @@
 		background: #ff9517 !important;
 }
 
+.etdh-panel .faq-etdh h1 {
+		background: #0080a2 !important;
+}
+
 .etdh-panel .quick-access-links > div > *,
 .etdh-panel .carousel-links .field-content a {
 		width: 100%;
@@ -739,6 +743,31 @@
 
 .etdh-panel .normativity-image {
 		background: url(../images/inner_images/inner_image_6.png) no-repeat center center / cover;
+}
+
+.etdh-panel .bulletin-image {
+		background: url(../images/inner_images/inner_image_7.png) no-repeat center center / cover;
+}
+
+.etdh-panel .chat-image {
+		background: url(../images/inner_images/inner_image_8.png) no-repeat center 30% / cover;
+}
+
+.etdh-panel .forum-image {
+		background: url(../images/inner_images/inner_image_9.png) no-repeat center 35% / cover;
+}
+
+.etdh-panel .programs-image {
+		background: url(../images/inner_images/inner_image_10.png) no-repeat center center / cover;
+}
+
+.etdh-panel .faq-image {
+		background: url(../images/inner_images/inner_image_11.png) no-repeat center 35% / cover;
+		margin: 0;
+}
+
+.etdh-panel .events-image {
+		background: url(../images/inner_images/inner_image_12.png) no-repeat center 35% / cover;
 }
 
 @media (max-width: 710px) {
