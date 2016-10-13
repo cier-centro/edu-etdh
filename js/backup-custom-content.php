@@ -54,6 +54,12 @@ jQuery(function () {
                  jQuery(this).removeClass( "active" );
          }
     });
+		if ($(".etdh-panel .etdh-container .views-field-field-imagen-del-articulo img").length) {
+				var imageNews = '<div class="inner-image news-image"></div>';
+				var imageNewsUrl = $(".etdh-panel .etdh-container .views-field-field-imagen-del-articulo img").attr("src");
+				$(imageNews).insertBefore( $( ".etdh-panel .etdh-container .news-content" ) );
+				$('.news-image').css('background-image', "url(" + imageNewsUrl +")");
+		}
 });
 </script>
 

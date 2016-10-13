@@ -430,12 +430,18 @@
 
 .etdh-panel #microsite_panel .etdh-container h1,
 .etdh-panel .documents-etdh > a,
-.etdh-panel .documents-etdh  h1 {
+.etdh-panel .documents-etdh  h1,
+.etdh-panel .etdh-container .news-title {
 		margin: 0 0 20px;
 		background: #ff9000;
 		color: white;
 		padding: 10px;
 		font-size: 20px;
+}
+
+.etdh-panel .etdh-container .news-title {
+		font-weight: 500;
+		display: block;
 }
 
 .etdh-panel #microsite_panel h2,
@@ -571,6 +577,7 @@
 		padding: 0 15px;
 }
 
+.etdh-panel .etdh-container .news-content,
 .etdh-panel .educational-institutions-etdh > p {
 		padding: 0 15px;
 }
@@ -719,6 +726,14 @@
 		height: 0;
 		padding: 0 0 35%;
 		overflow: hidden;
+}
+
+.etdh-panel .etdh-container .views-field-field-imagen-del-articulo img {
+    display: none;
+}
+
+.etdh-panel .news-image {
+		background: no-repeat center 35% / cover;
 }
 
 .etdh-panel .start-image {
