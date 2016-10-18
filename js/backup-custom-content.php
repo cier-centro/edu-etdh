@@ -76,3 +76,16 @@ function setUrl(image, anchor) {
     anchor.attr( "href", backgroundUrl );
   }
 </script>
+<!--Estilo de links de acceso rápido y carrusel en FAQ ETDH-->
+<style>
+@media (min-width: 992px) {
+	.etdh-panel .quick-access-links, .etdh-panel .carousel-links {
+		position: absolute;
+		right: 0;
+	}
+
+	.etdh-panel .carousel-links {
+		margin-top: 310px;
+	}
+}
+</style>

@@ -1,8 +1,16 @@
+.etdh-panel .section_container .section_content {
+		min-height: 100%;
+}
+
 #etdh_home_slider {
-		height: 320px;
+		height: 335px;
 		overflow: hidden;
 		padding: 0 15px;
-		margin-bottom: 15px;
+}
+
+#etdh_home_slider .pane-content {
+	height: 320px;
+	overflow: hidden;
 }
 
  #etdh_home_slider .views-slideshow-controls-top {
@@ -51,7 +59,7 @@
 #etdh_home_slider .views_slideshow_slide > div .views-field-body {
 		position: absolute;
 		top: 25%;
-		width: 30%;
+		width: 33%;
 		right: 12%;
 		background: white;
 		padding: 15px;
@@ -226,6 +234,10 @@
 		height: 160px;
 }
 
+.etdh-panel .carousel-links {
+		padding-top: 5px !important; 
+}
+
 .etdh-panel .etdh-carousel .views-row:nth-child(1),
 .etdh-panel .bulletin-etdh h1, .etdh-panel .bulletin-etdh h2,
 .etdh-panel .carousel-links .view-content .views-row:first-child a{
@@ -317,6 +329,7 @@
 
 .etdh-panel .quick-access-links > div > a:nth-child(5) {
 		background: #d8852c;
+		margin-bottom: 0;
 }
 
 .etdh-panel .etdh-events-docs-video {
@@ -453,6 +466,10 @@
 }
 
 .etdh-panel .panels-flexible-region {
+		background-color: #e0e0e0;
+}
+
+.etdh-panel .panels-flexible-region .inside > div {
 		background-color: white;
 }
 
@@ -472,13 +489,17 @@
 		display: block;
 }
 
+.etdh-panel #microsite_panel h2 {
+		border-radius: 4px;
+}
+
 .etdh-panel #microsite_panel h2,
 .etdh-panel .ui-accordion-header.ui-state-default,
 .etdh-panel #microsite_panel .active h2,
 .etdh-panel .ui-accordion-header.ui-state-active {
 		color: white;
     padding: 5px 10px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: normal;
 		margin: 1px 0;
 }
@@ -623,6 +644,7 @@
 .etdh-panel .accordion-content p,
 .etdh-panel .ui-accordion-content p {
     white-space: pre-line;
+		font-size: 14px !important;
 }
 
 .etdh-panel .accordion-content p > a {
@@ -914,11 +936,16 @@
     #etdh_home_slider {
         height: 33vw;
     }
+
+		#etdh_home_slider .pane-content {
+    		height: 31vw;
+		}
 }
 
 @media (min-width: 992px) {
     .etdh-panel .quick-access-links, .etdh-panel .carousel-links {
         padding: 0;
+				background-color: #e0e0e0 !important;
     }
 
 		.etdh-panel .quick-access-links > div > * {
