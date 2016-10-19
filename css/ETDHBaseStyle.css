@@ -987,3 +987,10 @@
         width: 45%;
     }
 }
+
+@media (max-width: 900px) {
+    #etdh_home_slider .views_slideshow_slide > div .views-field-body {
+		top: 15%;
+		width: 40%;
+	}
+}
