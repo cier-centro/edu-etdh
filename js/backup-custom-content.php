@@ -59,6 +59,9 @@ jQuery(function () {
 				var imageNewsUrl = $(".etdh-panel .etdh-container .views-field-field-imagen-del-articulo img").attr("src");
 				$(imageNews).insertBefore( $( ".etdh-panel .etdh-container .news-content" ) );
 				$('.news-image').css('background-image', "url(" + imageNewsUrl +")");
+				if ($( ".etdh-panel .etdh-container .news-content" ).length) {
+						$( ".etdh-container .views-field-body .field-content" ).addClass("news-container");
+				}
 		}
 });
 </script>
