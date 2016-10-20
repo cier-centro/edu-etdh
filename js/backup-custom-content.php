@@ -1,12 +1,25 @@
+<!--Exceptuar para FAQ EDTH-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+	jQuery(function () {
+	    if (isUrlEndsWithETDH("/etdh")) {
+					$( ".etdh-panel .main-menu .menu li a" ).first().addClass("active");
+			}
+			else {
+					$( ".etdh-panel .main-menu .menu li a" ).first().removeClass("active");
+			}
+	});
+	function isUrlEndsWithETDH(finalWord) {
+			return window.location.href.endsWith(finalWord);
+	}
+</script>
+
 <!--Enlaces de todas las páginas-->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/575652037/edu-etdh/css/condensed-fix.css">
 <link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/575652037/edu-etdh/css/ETDHBaseStyle.css">
 
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-<!--Exceptuar para FAQ EDTH-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 
 <!--Enlaces de acceso rápido-->
 <a href="/etdh/92424">
@@ -77,7 +90,7 @@ function setUrl(image, anchor) {
     var backgroundUrl = /^url\((['"]?)(.*)\1\)$/.exec( image.css('background-image') );
     backgroundUrl = backgroundUrl ? backgroundUrl[2] : "";
     anchor.attr( "href", backgroundUrl );
-  }
+}
 </script>
 <!--Estilo de links de acceso rápido y carrusel en FAQ ETDH-->
 <style>

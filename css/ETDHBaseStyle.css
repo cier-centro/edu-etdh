@@ -807,52 +807,52 @@
 }
 
 .etdh-panel .start-image {
-		background: url(../images/inner_images/inner_image_1.png) no-repeat center center / cover;
+		background: url(../images/inner_images/inner_image_1.jpg) no-repeat center center / cover;
 }
 
 .etdh-panel .definition-image {
-		background: url(../images/inner_images/inner_image_2.png) no-repeat center 35% / cover;
+		background: url(../images/inner_images/inner_image_2.jpg) no-repeat center 35% / cover;
 }
 
 .etdh-panel .education-departments-image {
-		background: url(../images/inner_images/inner_image_3.png) no-repeat center center / cover;
+		background: url(../images/inner_images/inner_image_3.jpg) no-repeat center center / cover;
 }
 
 .etdh-panel .educational-institutions-image {
-		background: url(../images/inner_images/inner_image_4.png) no-repeat center 35% / cover;
+		background: url(../images/inner_images/inner_image_4.jpg) no-repeat center 35% / cover;
 }
 
 .etdh-panel .information-systems-image {
-		background: url(../images/inner_images/inner_image_5.png) no-repeat center 35% / cover;
+		background: url(../images/inner_images/inner_image_5.jpg) no-repeat center 35% / cover;
 }
 
 .etdh-panel .normativity-image {
-		background: url(../images/inner_images/inner_image_6.png) no-repeat center center / cover;
+		background: url(../images/inner_images/inner_image_6.jpg) no-repeat center center / cover;
 }
 
 .etdh-panel .bulletin-image {
-		background: url(../images/inner_images/inner_image_7.png) no-repeat center center / cover;
+		background: url(../images/inner_images/inner_image_7.jpg) no-repeat center center / cover;
 }
 
 .etdh-panel .chat-image {
-		background: url(../images/inner_images/inner_image_8.png) no-repeat center 30% / cover;
+		background: url(../images/inner_images/inner_image_8.jpg) no-repeat center 30% / cover;
 }
 
 .etdh-panel .forum-image {
-		background: url(../images/inner_images/inner_image_9.png) no-repeat center 35% / cover;
+		background: url(../images/inner_images/inner_image_9.jpg) no-repeat center 35% / cover;
 }
 
 .etdh-panel .programs-image {
-		background: url(../images/inner_images/inner_image_10.png) no-repeat center center / cover;
+		background: url(../images/inner_images/inner_image_10.jpg) no-repeat center center / cover;
 }
 
 .etdh-panel .faq-image {
-		background: url(../images/inner_images/inner_image_11.png) no-repeat center 35% / cover;
+		background: url(../images/inner_images/inner_image_11.jpg) no-repeat center 35% / cover;
 		margin: 0;
 }
 
 .etdh-panel .events-image {
-		background: url(../images/inner_images/inner_image_12.png) no-repeat center 35% / cover;
+		background: url(../images/inner_images/inner_image_12.jpg) no-repeat center 35% / cover;
 }
 
 @media (max-width: 710px) {
@@ -993,7 +993,7 @@
 		top: 15%;
 		width: 40%;
 	}
-	
+
 	#etdh_home_slider .views-slideshow-controls-top {
 		width: 90%;
 	}
@@ -1010,4 +1010,3 @@
 		width: 85%;
 	}
 }
-
