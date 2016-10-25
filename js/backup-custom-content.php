@@ -16,8 +16,8 @@
 
 <!--Enlaces de todas las páginas-->
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/575652037/edu-etdh/css/condensed-fix.css">
-<link rel="stylesheet" href="https://dl.dropboxusercontent.com/u/575652037/edu-etdh/css/ETDHBaseStyle.css">
+<link rel="stylesheet" href="http://52.37.84.217/edu-etdh/css/condensed-fix.css">
+<link rel="stylesheet" href="http://52.37.84.217/edu-etdh/css/ETDHBaseStyle.css">
 
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 

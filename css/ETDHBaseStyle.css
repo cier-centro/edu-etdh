@@ -743,7 +743,7 @@
 
 .etdh-panel .bulletin-etdh .table tbody > tr:first-child p:first-child {
 		color: #ffcf73;
-		font-size: 60px;
+		font-size: 60px !important;
 		font-weight: 600;
 }
 
@@ -755,7 +755,7 @@
 .etdh-panel .bulletin-etdh .table tbody > tr:nth-child(2) p {
 		color: white;
 		font-weight: 600;
-    font-size: 35px;
+    font-size: 35px !important;
 }
 
 .etdh-panel .bulletin-etdh .table tbody > tr:nth-child(3) {
@@ -765,7 +765,7 @@
 .etdh-panel .bulletin-etdh .table tbody > tr:nth-child(3) p {
 		color: #005573;
 		font-weight: 600;
-		font-size: 20px;
+		font-size: 20px !important;
 }
 
 .etdh-panel .enrollment-image,
