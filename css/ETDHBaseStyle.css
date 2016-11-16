@@ -58,8 +58,8 @@
 
 #etdh_home_slider .views_slideshow_slide > div .views-field-body {
 		position: absolute;
-		top: 25%;
-		width: 33%;
+		top: 23%;
+		width: 70%;
 		right: 12%;
 		background: white;
 		padding: 15px;
@@ -855,11 +855,7 @@
 		background: url(../images/inner_images/inner_image_12.jpg) no-repeat center 35% / cover;
 }
 
-@media (max-width: 710px) {
-    #etdh_home_slider .views_slideshow_slide > div .views-field-body {
-        right: 18%;
-    }
-
+@media (max-width: 767px) {
     #etdh_home_slider .views_slideshow_slide .field-content > *:not(:first-child) {
         font-size: 0px !important;
 				margin: 0 !important;
@@ -874,10 +870,25 @@
     }
 }
 
-@media (min-width: 711px) and (max-width: 850px) {
+@media (max-width: 900px) {
+    #etdh_home_slider .views_slideshow_slide > div .views-field-body {
+        right: 18%;
+		top: 12%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+    #etdh_home_slider .views_slideshow_slide > div .views-field-body {
+        top: 12%;
+        width: 80%;
+        right: 14%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1500px) {
     #etdh_home_slider .views_slideshow_slide > div .views-field-body {
         top: 15%;
-        width: 35%;
+        width: 70%;
         right: 14%;
     }
 }
@@ -989,12 +1000,7 @@
 }
 
 @media (max-width: 900px) {
-    #etdh_home_slider .views_slideshow_slide > div .views-field-body {
-		top: 15%;
-		width: 40%;
-	}
-
-	#etdh_home_slider .views-slideshow-controls-top {
+    #etdh_home_slider .views-slideshow-controls-top {
 		width: 90%;
 	}
 }
