@@ -1,0 +1,32 @@
+<script>
+$( document ).ready(function() {
+    var docList=$('.accordion-content ul')
+	var documents=$('.views-field.views-field-field-libros a');
+	documents.each(function(){
+		var url=$(this).text();
+		var textSpace=url.replace(/_\.n/g,'ñ');
+		textSpace=textSpace.replace(/_\.a/g,'á');
+		textSpace=textSpace.replace(/_\.e/g,'é');
+		textSpace=textSpace.replace(/_\.i/g,'í');
+		textSpace=textSpace.replace(/_\.o/g,'ó');
+		textSpace=textSpace.replace(/_\.u/g,'ú');
+		textSpace=textSpace.replace(/_\./g,':');
+		textSpace=textSpace.replace( /_/g,' ');
+		textSpace=textSpace.replace('.pdf','');
+		textSpace= textSpace.charAt(0).toUpperCase() + textSpace.slice(1);
+		var li = $('<li/>')
+			.appendTo(docList);
+		var aTag=$('<a/>')
+			.text(textSpace)
+			.attr('href',url)
+			.appendTo(li);
+		documents.css('display','none');
+	});
+	$('.file-icon').each(function(){
+		$(this).css('display','none');
+	});
+	$('.views-field.views-field-field-libros').css('display','none');
+});
+//.accordion-content ul
+
+</script>
